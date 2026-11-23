@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div className='app'>
-      <Header title={'🍱 오늘 점심 뭐 먹지?'} />
+      <Header title={'🍱 무슨 게임 할까?'} />
       <AddMenu onAdd={addMenu}/>
       <ul className="menus">
       {menus.map((m) => (
