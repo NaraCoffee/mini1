@@ -20,7 +20,7 @@ const AddMenu = ({onAdd}) => {
   }
   return (
     <form className='add' onSubmit={handleSubmit}>
-      <input type="text" ref={inputRef} placeholder='하고 싶은 게임을 추가해요 (예: 스텔라블레이드)'/>
+      <input type="text" ref={inputRef} placeholder='하고 싶은 게임을 추가 (예: 스텔라블레이드)'/>
       <button type='submit'>추가</button>
     </form>
   )

@@ -42,7 +42,7 @@ input {
 }
 
 .header strong {
-  color: var(--primary);
+  color: #2563eb;
 }
 .add {
   display: flex;
