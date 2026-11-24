@@ -2,7 +2,7 @@
   --primary: #ff7a45;
   --text: #222;
   --muted: #888;
-  --bg: #fff8f3;
+  --bg: #e5e5e5;
 }
 
 * {
@@ -60,7 +60,7 @@ input {
 }
 
 .add input:focus {
-  border-color: var(--primary);
+  border-color: #2563eb;
 }
 .add button,
 .reset {
@@ -128,7 +128,7 @@ input {
   height: 40px;
   border: 0;
   border-radius: 10px;
-  background: var(--primary);
+  background: #2563eb;
   color: #fff;
   font-weight: 700;
   cursor: pointer;
@@ -144,6 +144,6 @@ input {
 }
 
 .reset {
-  background: #ddd;
+  background: #c4c4c4;
   color: var(--text);
 }
